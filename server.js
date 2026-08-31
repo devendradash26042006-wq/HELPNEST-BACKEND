@@ -23,6 +23,6 @@ app.get("/", (req, res) => {
   res.send("Help Nest Backend Running");
 });
 
-app.listen(5000, "0.0.0.0", () => {
-  console.log("Server running on port 5000");
+app.listen(PORT, "0.0.0.0", () => {
+  console.log("Server running on port " + PORT);
 });
